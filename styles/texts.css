@@ -1,0 +1,115 @@
+.site-logo{
+    color: var(--color-grey-3);
+    font-size: var(--title-2);
+    font-weight: var(--font-weight-1);
+}
+
+.h2-header{
+    color: var(--color-grey-3);
+    font-size: var(--title-1);
+    font-weight: var(--font-weight-1);
+    line-height: 3rem;
+}
+
+.paragraph-header{
+    color: var(--color-grey-5);
+    font-size: var(--text-1);
+    font-weight: var(--font-weight-3);
+    line-height: 2rem;
+}
+
+.h2-jobs{
+    font-size: var(--title-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+    padding: 3rem 0;
+}
+
+.span-role-info{
+    font-size: var(--title-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+    line-height: 2.0625rem;
+}
+
+.span-name-company{
+    font-size: var(--text-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-2);
+}
+
+.span-state{
+    font-size: var(--text-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-2);
+}
+
+.span-role-description{
+    font-size: var(--text-2);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-2);
+    line-height: 2rem;
+}
+
+.span-working-type{
+    font-size: var(--text-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-2);
+    padding: 0.25rem 0.75rem;
+    background-color: var(--color-grey-3);
+    border-radius: var(--radius-default);
+}
+
+.h2-jobs-chosen{
+    font-size: var(--title-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+
+.h2-jobs-chosen-2{
+    padding: 2rem 0 0 2.375rem;
+    background-color: var(--color-grey-6);
+    margin-top: 2rem;
+    border-radius: var(--radius-default) var(--radius-default) 0 0;
+}
+
+.span-jobs-not-chosen{
+    font-size: var(--text-2);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-2);
+    line-height: 2rem;
+}
+
+.span-not-write{
+    height: 1rem;
+    border-radius: 2rem;
+    background-color: var(--color-grey-5);
+    max-width: 100%;
+}
+
+.span-not-write-1{
+    width: 9.3125rem;
+}
+
+.span-not-write-2{
+    width: 16.6875rem;
+}
+
+.span-not-write-3{
+    width: 6.4375rem;
+}
+
+.span-not-write-4{
+    width: 6.4375rem;
+}
+
+.span-not-write-5{
+    width: 2.8125rem;
+}
+
+.span-role-info-2{
+    font-size: var(--title-5);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+    line-height: 2.0625rem;
+}

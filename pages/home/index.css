@@ -1,1 +1,65 @@
 /* Desenvolva sua estilização aqui... */
+
+/* header{
+    background: var(--opacity-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+} */
+
+.jobs-list{
+    gap: 2.5rem;
+}
+
+.job-apply{
+    width: 100%;
+    height: fit-content;
+    border-radius: var(--radius-default);
+    background-color: var(--color-grey-6);
+    padding: 2.375rem;
+    gap: 1.5rem;
+}
+
+.div-name-state{
+    gap: 5rem;
+}
+
+.div-working-type{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.section-jobs-chosen{
+    background-color: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    gap: 6rem;
+    padding: 2.375rem;
+}
+
+.div-spans-aside{
+    gap: 1rem;
+}
+
+.div-spans-aside-2{
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.jobs-chosen-lists{
+    background-color: var(--color-grey-5);
+    border-radius: var(--radius-default);
+}
+
+.jobs-chosen-list{
+    gap: 1.25rem;
+    max-width: 100%;
+    margin-bottom: 0.125rem;
+    background-color: var(--color-grey-6);
+    padding: 2.375rem;
+}
+
+.image-trash{
+    width: 0.7656rem;
+    height: 0.875rem; 
+}

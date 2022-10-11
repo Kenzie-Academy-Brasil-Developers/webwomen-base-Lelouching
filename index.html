@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+</head>
+
+<body>
+      <img class="site-image-logo" src="./assets/img/Pexels Photo by Christina Morillo.png" alt="">
+      <header class="container flex flex-column">
+        <h1 class="site-logo">
+          <a href="#" class="anchor-style-none">Webwomen</a>
+        </h1>
+        <h2 class="h2-header">Lugar de mulher é onde ela quiser!</h2>
+        <p class="paragraph-header">
+          Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+          Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?
+        </p>
+        <p class="paragraph-header">
+          <strong>Confere aqui embaixo o que temos pra você!</strong>
+        </p>
+        <button class="button-section-job">Ir para seção das vagas</button>
+      </header>
+      <main class="container">
+        <section>
+          <h2 class="h2-jobs">Vagas</h2>
+          <ul class="jobs-list flex flex-column"></ul>
+        </section>
+        <aside>
+          <section class="section-select section-jobs-chosen flex flex-column">
+            <h2 class="h2-jobs-chosen">Vagas selecionadas</h2>
+              <div class="div-spans-aside flex flex-column">
+                <span class="span-jobs-not-chosen">Você ainda não aplicou para nenhuma vaga</span>
+                <span class="span-not-write span-not-write-1"></span>
+                <span class="span-not-write span-not-write-2"></span>
+                <div class="div-spans-aside-2 flex flex-column">
+                  <span class="span-not-write span-not-write-3"></span>
+                  <span class="span-not-write span-not-write-4"></span>
+                  <span class="span-not-write span-not-write-5"></span>
+                </div>
+              </div>
+          </section>
+        </aside>
+      </main>
+
+    <script src="./pages/home/jobsData.js"></script>
+    <script src="./pages/home/index.js"></script>
+
+</body>
+
+</html>
